@@ -3,12 +3,12 @@
 ## Overview
 This module adds an "Open Cash Drawer" button in the Point of Sale (POS) interface of Odoo. With a single click, the cash drawer can be opened, enhancing the functionality and user experience of the POS system.
 
-!Banner
-
 ## Features
 - Adds a button to open the cash drawer directly from the POS interface.
 - Confirmation popup before opening the cash drawer to prevent accidental clicks.
-
+## Requires
+client webservice to hundle POS cashdrawer materials  
+https://github.com/icloudsolutions/scale_micro_service
 ## Installation
 1. Download the module and add it to your Odoo addons folder.
 2. Restart the Odoo server.
